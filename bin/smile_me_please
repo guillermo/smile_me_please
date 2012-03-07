@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+# encoding: UTF-8
+
+
+EMOTICONS="😄 😊 😃 😉 😍 😘 😚 😳 😌 😁 😜 😝 😒 😏 😓 😔 😞 😖 😥 😰 😨 😣 😢 😭 😂 😲 😱 😠 😡 😪 😷 ".split(" ")
+
+
+print EMOTICONS[rand(EMOTICONS.size)], ARGV.include?("-n") ? ' ' : "\n"
+
